@@ -1,0 +1,12 @@
+{
+    "type": "code",
+    "side": "universal",
+    "modid": "doubleslabs",
+    "name": "Double Slabs",
+    "description": "Improvements to vanilla and modded slabs. Combine slabs.",
+    "authors": ["Craluminum2413"],
+    "version": "0.1.0",
+    "dependencies": {
+        "game": "1.19.0"
+    }
+}

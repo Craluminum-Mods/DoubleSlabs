@@ -1,0 +1,6 @@
+obj
+bin
+.VSCodeCounter
+blockAtlas-*
+itemAtlas-*
+entityAtlas-*
