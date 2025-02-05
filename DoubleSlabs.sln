@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleSlabs", "DoubleSlabs\DoubleSlabs.csproj", "{676DECF9-FD36-49CC-BD34-F587445C65F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "ZZCakeBuild\CakeBuild.csproj", "{E0D51C8B-5BBB-49FB-AC23-A306627ECBFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{676DECF9-FD36-49CC-BD34-F587445C65F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676DECF9-FD36-49CC-BD34-F587445C65F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676DECF9-FD36-49CC-BD34-F587445C65F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676DECF9-FD36-49CC-BD34-F587445C65F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D51C8B-5BBB-49FB-AC23-A306627ECBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D51C8B-5BBB-49FB-AC23-A306627ECBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D51C8B-5BBB-49FB-AC23-A306627ECBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D51C8B-5BBB-49FB-AC23-A306627ECBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
