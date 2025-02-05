@@ -2,7 +2,7 @@ using HarmonyLib;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using Vintagestory.API.Common;
-using VintagestoryAPI.Math.Vector;
+using Vintagestory.API.MathTools;
 
 namespace DoubleSlabs;
 

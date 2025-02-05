@@ -2,17 +2,17 @@ global using static DoubleSlabs.Constants;
 using Vintagestory.API.Common;
 using Vintagestory.API.Util;
 
-[assembly: ModInfo(name: "Double Slabs", modID: modDomain)]
-
 namespace DoubleSlabs;
 
 public class Core : ModSystem
 {
+    public static Core GetInstance(ICoreAPI api) => api.ModLoader.GetModSystem<Core>();
+
     public override void Start(ICoreAPI api)
     {
         api.RegisterBlockBehaviorClass("DoubleSlabs.DoubleSlab", typeof(BlockBehaviorDoubleSlab));
         api.RegisterBlockEntityBehaviorClass("DoubleSlabs.DoubleSlab", typeof(BEBehaviorDoubleSlab));
-        api.Logger.Event("started '{0}' mod", Mod.Info.Name);
+        Mod.Logger.Event("started '{0}' mod", Mod.Info.Name);
     }
 
     public override void AssetsFinalize(ICoreAPI api)
