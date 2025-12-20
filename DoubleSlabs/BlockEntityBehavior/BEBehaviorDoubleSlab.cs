@@ -94,4 +94,6 @@ public class BEBehaviorDoubleSlab : BlockEntityBehavior, IBlockEntityContainer
         }
         return false;
     }
+
+    public void CheckInventoryClearedMidTick() { }
 }
