@@ -1,0 +1,8 @@
+{
+  "code": "doubleslab",
+  "class": "DoubleSlabs.DoubleSlab",
+  "entityClass": "DoubleSlabs.DoubleSlab",
+  "behaviors": [
+    { "name": "BlockEntityInteract" }
+  ]
+}

@@ -3,10 +3,10 @@
     "side": "universal",
     "modid": "doubleslabs",
     "name": "Double Slabs",
-    "description": "Improvements to vanilla and modded slabs. Combine slabs.",
-    "authors": ["Craluminum2413"],
-    "version": "0.1.5",
+    "description": "Combine slabs. Vanilla or modded.",
+    "authors": ["Craluminum2413 (Dana)"],
+    "version": "1.0.0",
     "dependencies": {
-        "game": "1.21.6"
+        "game": "1.21.0"
     }
 }
